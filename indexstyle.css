@@ -95,7 +95,7 @@ html {
     top: 50%;
     right: 0;
     left: auto;
-    transform: translateY(-50%);
+    transform: translateY(10%);
     transition: all 0.3s ease-in-out;
     opacity: 0.6;
 }
@@ -118,13 +118,13 @@ html {
 }
 
 .slideshow-text {
-    position: absolute;
+    position: relative;
     top: 380px;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 400;
-    font-size: 5em;
-    width: 100vw;
+    z-index: 3;
+    font-size: 3em;
+    width: 70vw;
     text-align: center;
     color: #fff;
     font-family: "walkaway", sans-serif;
